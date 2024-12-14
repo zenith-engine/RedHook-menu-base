@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="src\rdr\enums.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\math.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\invoker\Natives.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\invoker\NativesCaller.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\invoker\Structs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\input\inputs_manager.h">
+      <Filter>util\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\application.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\interface\renderer.hpp" />
+    <ClInclude Include="src\interface\submenu.hpp" />
+    <ClInclude Include="src\interface\submenu_handler.hpp" />
+    <ClInclude Include="src\interface\option\option.hpp" />
+    <ClInclude Include="src\interface\submenu\home.hpp" />
+    <ClInclude Include="src\interface\option\submenu_option.hpp" />
+    <ClInclude Include="src\interface\submenu\main\self.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\util\input\inputs_manager.cpp">
+      <Filter>util\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\application.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dllmain.cpp" />
+    <ClCompile Include="src\pch.cpp" />
+    <ClCompile Include="src\interface\renderer.cpp" />
+    <ClCompile Include="src\interface\submenu.cpp" />
+    <ClCompile Include="src\interface\submenu_handler.cpp" />
+    <ClCompile Include="src\interface\option\option.cpp" />
+    <ClCompile Include="src\interface\submenu\home.cpp" />
+    <ClCompile Include="src\interface\option\submenu_option.cpp" />
+    <ClCompile Include="src\interface\submenu\main\self.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{4e1dfae1-019b-4ebb-be57-bf06b4d91e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{cdd72078-94ae-497c-8f08-a3f57946cd10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\input">
+      <UniqueIdentifier>{962ac0e2-11e9-49fe-9cf6-4b9263266f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{30521288-0c04-42a5-a0db-935973089969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{9162e545-f194-4372-a8d3-f35b230c2bf9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
