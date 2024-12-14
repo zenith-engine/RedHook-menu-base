@@ -10,7 +10,7 @@ void application::initialize(HMODULE _Module)
 
 	ScriptRegister(_Module, []
 	{
-		HUD::PRINT_HELP_B("<red>No Clip Controls\n</red>[F4] On/Off\n[WASD] Move\n[Ctrl] Go Down\n[Space] Go Up\n[Q] Speed-\n[E] Speed+\n[Shift] Speed Boost", 15.0f, true, 1, 0, 0, 0, 0);
+		HUD::PRINT_HELP_B("<red>Menu Controls\n</red>[F4] Open\n[RIGHT] Move number\n[LEFT] Move number\n[DOWN] Go Down\n[UP] Go Up", 15.0f, true, 1, 0, 0, 0, 0);
 
 		while (true)
 		{
