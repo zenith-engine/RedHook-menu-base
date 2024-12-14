@@ -14,6 +14,9 @@ void application::initialize(HMODULE _Module)
 
 		while (true)
 		{
+			if (input::is_key_just_pressed(KEY_F4)) {
+				g_renderer->toggle_open();
+			}
 			if (g_renderer->is_open())
 			{
 				g_renderer->render();
